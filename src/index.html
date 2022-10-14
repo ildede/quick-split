@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quick Split</title>
+    <link rel="stylesheet" href="styles.scss"/>
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+<main>
+    <label for="pattern">Breaking tag</label>
+    <input id="pattern" placeholder="tag">
+    <label for="limit">Character limit</label>
+    <input id="limit" type="number" min="0" placeholder="character">
+    <label for="source">Input source</label>
+    <textarea id="source" placeholder="text" rows="6"></textarea>
+    <article id="result">
+        <blockquote>
+            <p>...waiting for input</p>
+        </blockquote>
+    </article>
+</main>
+
+<footer>
+    <p>
+        <a href="https://creativecommons.org/publicdomain/zero/1.0/">No rights reserved</a>.
+        Maintained by <a href="https://linkedin.com/in/pedrondavide">Davide Pedron</a>.
+        <a href="https://github.com/ildede/quick-split">Source code</a>.
+    </p>
+</footer>
+<div>
+</div>
+</body>
+</html>
