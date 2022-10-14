@@ -2627,7 +2627,6 @@ __metadata:
     "@parcel/transformer-sass": 2.7.0
     "@tauri-apps/cli": ^1.1.1
     parcel: ^2.7.0
-    simpledotcss: ^2.1.1
   languageName: unknown
   linkType: soft
 
@@ -2755,13 +2754,6 @@ __metadata:
   version: 3.0.7
   resolution: "signal-exit@npm:3.0.7"
   checksum: a2f098f247adc367dffc27845853e9959b9e88b01cb301658cfe4194352d8d2bb32e18467c786a7fe15f1d44b233ea35633d076d5e737870b7139949d1ab6318
-  languageName: node
-  linkType: hard
-
-"simpledotcss@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "simpledotcss@npm:2.1.1"
-  checksum: f60c531f2b216be3616acb927aab6d9dfb615b04fe9847bc437165a5d1006e97e55c4a002a5df4921ee2be04ebe5834f93dd3dabc42e19aff75929d9f399af69
   languageName: node
   linkType: hard
 
