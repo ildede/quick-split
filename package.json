@@ -11,5 +11,5 @@
     "@tauri-apps/cli": "^1.1.1",
     "parcel": "^2.7.0"
   },
-  "packageManager": "yarn@3.2.3"
+  "packageManager": "yarn@3.4.1"
 }
