@@ -13,6 +13,9 @@
     <input id="pattern" placeholder="tag">
     <label for="limit">Character limit</label>
     <input id="limit" type="number" min="0" placeholder="character">
+    <fieldset id="custom-rules">
+        <legend>Custom replacing rules <button id="add-custom-rule">+</button></legend>
+    </fieldset>
     <label for="source">Input source</label>
     <textarea id="source" placeholder="text" rows="6"></textarea>
     <article id="result">
@@ -29,6 +32,11 @@
         <a href="https://github.com/ildede/quick-split">Source code</a>.
     </p>
 </footer>
+<template id="custom-rule">
+    <input class="rule-pattern" placeholder="tag or regex" size="35">
+    <input class="count-rule-pattern" type="number" min="0" placeholder="character" style="width: 6em">
+    <input class="is-regex-rule-pattern" type="checkbox"> Use <a href="https://regex101.com/" target="_blank">Regex</a>
+</template>
 <div>
 </div>
 </body>
